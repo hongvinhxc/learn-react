@@ -1,11 +1,26 @@
+.box-item {
+    border-top: 1px solid #4d4d4d;
+    display: flex;
+    align-items: center;    
+    padding-left: 10px;
+}
+
+.box-item:nth-child(2) {
+    border-top: none;
+  }
 .TodoItem {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 24px;
     color: #4d4d4d;
+    
 }
 
-.TodoItem-Complete {
+.TodoItem p {
+    margin-left: 10px;
+}
+
+.TodoItem-Complete p{
     text-decoration: line-through;
     opacity: 0.3;
 }
