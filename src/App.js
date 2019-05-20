@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import checkall from './img/checkall.svg';
-import checked from './img/completed.svg';
+import checkedall from './img/checkall-checked.svg';
 import TodoItem from './components/TodoItem';
 
 class App extends Component {
@@ -125,27 +125,27 @@ class App extends Component {
   render() {
     const { todoItems, value, checkedStatus } = this.state;
     let url;
-    if (checkedStatus) url = checked;
+    if (checkedStatus) url = checkedall;
     else url = checkall;
     return (
       <div className="App">
         <h1>Your Todo List</h1>
         <div className="box">
           <div className="box-header">
-            <img src={url} width={32} height={32} alt="" onClick={this.checkAll} />
-            <input className="input" type="text" onKeyUp={this.onKeyUp} placeholder="Add a new item" value={value} onChange={this.onChange} />
+            {todoItems.length > 0 && <img src={url} width={16} height={16} alt="" onClick={this.checkAll} />}
+            <input className="input" type="text" onKeyUp={this.onKeyUp} placeholder="Look what you made me do" value={value} onChange={this.onChange} />
           </div>
           {
             todoItems.length > 0 && todoItems.map((item, index) => <TodoItem key={index} item={item} onClicked={this.onItemClick(item)} />)
           }
           {
-            todoItems.length === 0 && <h2>No item in this list</h2>
+            todoItems.length > 0 &&
+            <div className="box-footer">
+              <span onClick={this.filterActive}>Active</span>
+              <span onClick={this.filterCompleted}>Completed</span>
+              <span onClick={this.clearItems}>Clear</span>
+            </div>
           }
-          <div className="box-footer">
-            <span onClick={this.clearItems}>Clear completed</span>
-            <span onClick={this.filterCompleted}>Completed</span>
-            <span onClick={this.filterUncompleted}>Uncompleted items</span>
-          </div>
         </div>
       </div>
     );

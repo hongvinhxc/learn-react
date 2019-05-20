@@ -11,7 +11,7 @@ class TodoItem extends Component {
         return (
             <div className="box-item"> 
                 <img src={url} width={32} height={32} onClick={onClicked} alt=''/>
-                <div className={classNames('TodoItem', {
+                <div className={classNames('opacity-50 TodoItem', {
                     'TodoItem-Complete': item.isCompleted
                 })} >
                     <p>{item.title}</p>

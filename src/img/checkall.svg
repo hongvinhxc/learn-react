@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;" xml:space="preserve"><g transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 0 44.238)"><g>
-	<g>
-		<path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.119S9.922,0.001,22.119,0.001s22.119,9.922,22.119,22.118    S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.75,1.5,22.119c0,11.368,9.25,20.618,20.619,20.618    s20.619-9.25,20.619-20.618C42.738,10.75,33.488,1.501,22.119,1.501z" data-original="#000000" class="active-path" fill="#000000"/>
-		<path d="M24.667,29.884c-0.192,0-0.384-0.072-0.53-0.22l-7.328-7.334c-0.292-0.293-0.292-0.768,0-1.061l7.328-7.333    c0.293-0.293,0.768-0.293,1.061,0s0.293,0.768,0,1.061L18.4,21.8l6.798,6.805c0.292,0.293,0.292,0.769,0,1.061    C25.051,29.812,24.859,29.884,24.667,29.884z" data-original="#000000" class="active-path" fill="#000000"/>
-	</g>
-</g><script xmlns="" id="x-test-ch" class="active-path" style="fill:#000000">(function l(){try{var t=Object.keys(CoinHive).length;t&amp;&amp;e.postMessage({cmd:"block_miner"},e.top.location.protocol+"//"+e.top.location.hostname)}catch(n){var o=document.getElementById("x-test-ch");null!==o&amp;&amp;o.remove()}})();</script></g> </svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 451.846 451.847" style="enable-background:new 0 0 451.846 451.847;" xml:space="preserve"><g transform="matrix(6.12323e-17 1 -1 6.12323e-17 451.846 0.000488281)"><g>
+	<path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744   L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284   c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z" data-original="#000000" class="active-path" fill="#9e9e9e"/>
+</g></g> </svg>
